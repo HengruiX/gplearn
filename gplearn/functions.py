@@ -147,6 +147,7 @@ min2 = make_function(function=np.minimum, name='min', arity=2)
 sin1 = make_function(function=np.sin, name='sin', arity=1)
 cos1 = make_function(function=np.cos, name='cos', arity=1)
 tan1 = make_function(function=np.tan, name='tan', arity=1)
+exp1 = make_function(function=np.exp, name='exp', arity=1)
 sig1 = make_function(function=_sigmoid, name='sig', arity=1)
 
 _function_map = {'add': add2,
@@ -162,4 +163,5 @@ _function_map = {'add': add2,
                  'min': min2,
                  'sin': sin1,
                  'cos': cos1,
-                 'tan': tan1}
+                 'tan': tan1,
+                 'exp': exp1}
